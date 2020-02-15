@@ -23,7 +23,7 @@
 [![dvc](https://img.shields.io/travis/com/iterative/dvc?label=dvc)](https://travis-ci.com/iterative/dvc)
 [![dvc.org](https://img.shields.io/circleci/build/gh/iterative/dvc.org?label=dvc.org)](https://circleci.com/gh/iterative/dvc.org)
 [![dvc-test](https://img.shields.io/travis/com/iterative/dvc-test?label=dvc-test)](https://travis-ci.com/iterative/dvc-test)
-[![gist:Music](https://img.shields.io/circleci/build/gh/casperdcl/music-box?label=gist:Music)](https://circleci.com/gh/casperdcl/music-box)
+[![gist:Music](https://img.shields.io/github/workflow/status/casperdcl/music-box/music-box?label=gist:Music)](https://github.com/casperdcl/music-box/actions?query=workflow%3Amusic-box)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
@@ -44,5 +44,5 @@ Run tasks at scheduled times in the cloud.
 
 ### User Configuration
 
-- In-place the root config files (`.travis.yml`/`.circleci`/`.github/workflows/` etc.)
+- In-place: the root config files (`.travis.yml`/`.circleci`/`.github/workflows/` etc.)
 - TODO: or file layout: `(travis|circle|gh)_(day|week|month)_*.y(a)ml`?
