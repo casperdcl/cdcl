@@ -11,15 +11,18 @@ jobs:
       - name: install snapcraft
         run: |
           sudo snap install snapcraft --classic
-          sudo snap install multipass --classic
+          sudo snap install lxd
           sudo snap install review-tools
           sudo chown root:root /  # fix root ownership
+          sudo /snap/bin/lxd.migrate -yes
+          sudo /snap/bin/lxd waitready
+          sudo /snap/bin/lxd init --auto
       - name: clone
         run: git clone https://github.com/casperdcl/cli --branch snap
       - name: build
         run: |
           pushd cli
-          sudo snapcraft
+          sudo snapcraft --use-lxd
           popd
       - name: deploy snap
         run: |
