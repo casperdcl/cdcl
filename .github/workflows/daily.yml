@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '* 0 * * *'  # M H d m w
 jobs:
-  snap_gh:
+  snap-gh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,16 +16,24 @@ jobs:
           sudo /snap/bin/lxd.migrate -yes
           sudo /snap/bin/lxd waitready
           sudo /snap/bin/lxd init --auto
-      - name: clone
+      - name: clone source
         run: git clone https://github.com/casperdcl/cli --branch snap
-      - name: build
+      - name: build snap
+        shell: bash
         run: |
           pushd cli
-          sudo snapcraft --use-lxd
+          if [ -z "$(git log --since=1.day)" ]; then
+            echo "no change so skipping"
+          else
+            sudo snapcraft --use-lxd
+          fi
           popd
       - name: deploy snap
+        shell: bash
         run: |
-          echo "$SNAP_TOKEN" | base64 --decode | snapcraft login --with -
-          sudo snapcraft push cli/gh_*.snap --release edge
+          if [ -n "$(ls cli/gh_*.snap 2>/dev/null)" ]; then
+            echo "$SNAP_TOKEN" | base64 --decode | snapcraft login --with -
+            sudo snapcraft push cli/gh_*.snap --release edge
+          fi
         env:
           SNAP_TOKEN: ${{ secrets.SNAP_TOKEN_GH }}
