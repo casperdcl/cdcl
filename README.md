@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 # cdcl: `cron` & dashboard in cloud land
 
 <!-- cron status -->
