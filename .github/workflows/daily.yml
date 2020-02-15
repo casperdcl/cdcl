@@ -17,7 +17,13 @@ jobs:
           sudo /snap/bin/lxd waitready
           sudo /snap/bin/lxd init --auto
       - name: clone source
-        run: git clone https://github.com/casperdcl/cli --branch snap
+        run: |
+          git clone https://github.com/casperdcl/cli --branch snap
+          pushd cli
+          git remote add upstream https://github.com/cli/cli
+          git fetch upstream master
+          git rebase upstream/master
+          popd
       - name: build snap
         shell: bash
         run: |
