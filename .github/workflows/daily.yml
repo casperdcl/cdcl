@@ -12,7 +12,6 @@ jobs:
         run: |
           sudo snap install snapcraft --classic
           sudo snap install lxd
-          sudo snap install review-tools
           sudo chown root:root /  # fix root ownership
           sudo /snap/bin/lxd.migrate -yes
           sudo /snap/bin/lxd waitready
