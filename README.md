@@ -1,5 +1,8 @@
 # cdcl: `cron` & dashboard in cloud land
 
+<!-- cron status -->
+[![daily-gh](https://img.shields.io/github/workflow/status/casperdcl/cdcl/daily?label=daily&logo=GitHub)](https://github.com/casperdcl/cdcl/actions?query=workflow%3Adaily)
+
 ## Dashboard
 
 <!-- Priority
@@ -31,7 +34,7 @@
 
 Run tasks at scheduled times in the cloud.
 
-## Backends/providers
+### Backends/providers
 
 - Travis CI
   - con: can be at most daily
@@ -39,7 +42,7 @@ Run tasks at scheduled times in the cloud.
 - GitHub Actions
   + pro: everything in one place (no reliance on third-party providers)
 
-## User Configuration
+### User Configuration
 
 - In-place the root config files (`.travis.yml`/`.circleci`/`.github/workflows/` etc.)
 - TODO: or file layout: `(travis|circle|gh)_(day|week|month)_*.y(a)ml`?

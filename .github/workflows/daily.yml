@@ -2,7 +2,7 @@ name: daily
 on:
   push:
   schedule:
-    - cron:  '* 0 * * *'  # M H d m w
+    - cron: '* 0 * * *'  # M H d m w
 jobs:
   snap_gh:
     runs-on: ubuntu-latest
