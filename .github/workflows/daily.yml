@@ -18,12 +18,14 @@ jobs:
           sudo /snap/bin/lxd init --auto
       - name: clone source
         run: |
-          git clone https://github.com/casperdcl/cli --branch snap
+          git clone https://${GH_TOKEN}@github.com/casperdcl/cli --branch snap
           pushd cli
           git remote add upstream https://github.com/cli/cli
           git fetch upstream master
-          git rebase upstream/master
+          git rebase upstream/master && git push -f
           popd
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN_GH }}
       - name: build snap
         shell: bash
         run: |
