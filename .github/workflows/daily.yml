@@ -8,14 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install snapcraft
-        run: |
-          sudo snap install snapcraft --classic
-          sudo snap install lxd
-          sudo chown root:root /  # fix root ownership
-          sudo /snap/bin/lxd.migrate -yes
-          sudo /snap/bin/lxd waitready
-          sudo /snap/bin/lxd init --auto
+      - uses: casperdcl/action-snapcraft@use-lxd
+        with:
+          use_lxd: true
       - name: clone source
         run: |
           git clone https://${GH_TOKEN}@github.com/casperdcl/cli --branch snap
