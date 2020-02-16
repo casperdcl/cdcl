@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: casperdcl/action-snapcraft@use-lxd
+      - uses: casperdcl/action-snapcraft@master
         with:
           use_lxd: true
       - name: clone source
@@ -31,12 +31,12 @@ jobs:
             sudo snapcraft --use-lxd
           fi
           popd
+      - uses: casperdcl/action-snapcraft@master
+        with:
+          snapcraft_token: ${{ secrets.SNAP_TOKEN_GH }}
       - name: deploy snap
         shell: bash
         run: |
           if [ -n "$(ls cli/gh_*.snap 2>/dev/null)" ]; then
-            echo "$SNAP_TOKEN" | base64 --decode | snapcraft login --with -
             sudo snapcraft push cli/gh_*.snap --release edge
           fi
-        env:
-          SNAP_TOKEN: ${{ secrets.SNAP_TOKEN_GH }}
