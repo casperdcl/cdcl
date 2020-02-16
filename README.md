@@ -40,10 +40,13 @@ Run tasks at scheduled times in the cloud.
 ### Backends/providers
 
 - Travis CI
-  - con: can be at most daily
+  - con: [can be at most daily](https://docs.travis-ci.com/user/cron-jobs)
+  - con: [caches are accessible by PRs](https://docs.travis-ci.com/user/caching/)
 - Circle CI
+  + pro: can cache between cron runs
 - GitHub Actions
   + pro: everything in one place (no reliance on third-party providers)
+  + con: [can only cache on push and PR](https://help.github.com/en/actions/configuring-and-managing-workflows/caching-dependencies-to-speed-up-workflows#restrictions-for-accessing-a-cache)
 
 ### User Configuration
 
