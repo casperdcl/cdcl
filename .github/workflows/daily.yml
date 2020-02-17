@@ -16,9 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: casperdcl/action-snapcraft@master
-        with:
-          use_lxd: true
       - name: clone source
         run: |
           git clone https://${GH_TOKEN}@github.com/casperdcl/cli --branch snap
@@ -28,26 +25,33 @@ jobs:
           git config user.name "Casper da Costa-Luis"
           git config user.email casper.dcl@physics.org
           git rebase upstream/master && git push -f
+          if [ -z "$(git log --since=1.day)" ]; then
+            echo "no change so skipping"
+            echo "::set-env name=skip::true"
+          fi
           popd
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_GH }}
+      - uses: casperdcl/action-snapcraft@master
+        with:
+          use_lxd: true
+        if: env.skip != true
       - name: build snap
         shell: bash
         run: |
           pushd cli
-          if [ -z "$(git log --since=1.day)" ]; then
-            echo "no change so skipping"
-          else
-            sudo snapcraft --use-lxd
-          fi
+          sudo snapcraft --use-lxd
           popd
+        if: env.skip != true
       - uses: casperdcl/action-snapcraft@master
         with:
           snapcraft_token: ${{ secrets.SNAP_TOKEN_GH }}
           skip_install: true
+        if: env.skip != true
       - name: deploy snap
         shell: bash
         run: |
           if [ -n "$(ls cli/gh_*.snap 2>/dev/null)" ]; then
             sudo snapcraft push cli/gh_*.snap --release edge
           fi
+        if: env.skip != true
