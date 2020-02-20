@@ -17,7 +17,7 @@ permalink: /
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
 [![tqdm.cpp](https://img.shields.io/travis/tqdm/tqdm.cpp?label=tqdm.cpp)](https://travis-ci.org/tqdm/tqdm.cpp)
 [![tqdm-feedstock](https://img.shields.io/travis/com/conda-forge/tqdm-feedstock?label=tqdm-feedstock)](https://travis-ci.com/conda-forge/tqdm-feedstock)
-[![tqdm](https://img.shields.io/travis/tqdm/tqdm?label=tqdm)](https://travis-ci.org/tqdm/tqdm)
+[![tqdm](https://img.shields.io/travis/tqdm/tqdm/master.svg?label=tqdm)](https://travis-ci.org/tqdm/tqdm)
 
 ----
 
