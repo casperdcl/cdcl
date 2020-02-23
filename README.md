@@ -8,6 +8,9 @@ permalink: /
 
 ## Dashboard
 
+<!-- pinned-gists -->
+<iframe src="https://gist.github.com/casperdcl/060c106a2b42d68d20b2e832971e5e04.pibb" width="520" height="80"></iframe>
+
 <!-- Priority
 1. any issues may affect lots of people
 2. nobody else is likely to fix issues in a timely manner
@@ -28,6 +31,7 @@ permalink: /
 [![dvc-test](https://img.shields.io/travis/com/iterative/dvc-test?label=dvc-test)](https://travis-ci.com/iterative/dvc-test)
 [![gist:Music](https://img.shields.io/github/workflow/status/casperdcl/music-box/music-box?label=gist:Music)](https://github.com/casperdcl/music-box/actions?query=workflow%3Amusic-box)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
+[![gist:Weather](https://img.shields.io/github/workflow/status/casperdcl/hl-weather-box/hl-weather-box?label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions?query=workflow%3Ahl-weather-box)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
 [![SIRF](https://img.shields.io/travis/CCPPETMR/SIRF?label=SIRF)](https://travis-ci.org/CCPPETMR/SIRF)
