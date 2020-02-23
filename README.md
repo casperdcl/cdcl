@@ -9,7 +9,7 @@ permalink: /
 ## Dashboard
 
 <!-- pinned-gists -->
-<iframe src="https://gist.github.com/casperdcl/060c106a2b42d68d20b2e832971e5e04.pibb" width="520" height="80"></iframe>
+<div class="gist">060c106a2b42d68d20b2e832971e5e04</div>
 
 <!-- Priority
 1. any issues may affect lots of people
