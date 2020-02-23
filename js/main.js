@@ -1,8 +1,10 @@
-$(function() {
+$(function(){
   $('div.gist').each(function(){
     var gist = $(this);
-    $.get("https://gist.github.com/casperdcl/" + gist.text() + "/raw", function(data){
-      gist.text(data);
+    $.get("https://api.github.com/gists/" + gist.text(), function(data){
+      $.each(data.files, function(name, file){
+        gist.html(file.content.split("\n").join("<br/>"));
+      });
     });
   });
 });
