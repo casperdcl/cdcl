@@ -5,7 +5,10 @@ $(function(){
     function update(){
       $.get(URL, function(data){
         const content = Object.values(data.files)[0].content;
-        gist.html(content.split("\n").join("<br/>").split(" ").join("&nbsp;"));
+        gist.html(
+	  "<code>" +
+	  content.split("\n").join("<br/>").split(" ").join("&nbsp;")
+	  + "</code>");
       });
     }
     update();
