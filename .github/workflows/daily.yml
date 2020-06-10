@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: |
           pushd cli
-          sudo snapcraft --use-lxd
+          sg lxd -c 'snapcraft --use-lxd'
           popd
         if: env.skip != true
       - uses: casperdcl/action-snapcraft@master
