@@ -17,6 +17,7 @@ permalink: /
 2. nobody else is likely to fix issues in a timely manner
 -->
 [![argopt](https://img.shields.io/travis/casperdcl/argopt?label=argopt)](https://travis-ci.org/casperdcl/argopt)
+[![BrainWeb](https://img.shields.io/travis/casperdcl/brainweb?label=BrainWeb)](https://travis-ci.org/casperdcl/brainweb)
 [![git-fame](https://img.shields.io/travis/casperdcl/git-fame?label=git-fame)](https://travis-ci.org/casperdcl/git-fame)
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
 [![shtab](https://img.shields.io/github/workflow/status/iterative/shtab/Test?label=shtab)](https://github.com/iterative/shtab/actions)
@@ -25,7 +26,7 @@ permalink: /
 
 ----
 
-[![BrainWeb](https://img.shields.io/travis/casperdcl/brainweb?label=BrainWeb)](https://travis-ci.org/casperdcl/brainweb)
+[![AMYPAD-core](https://img.shields.io/github/workflow/status/AMYPAD/amypad-core/Test?label=AMYPAD-core)](https://github.com/AMYPAD/amypad-core/actions)
 [![Conjuring](https://img.shields.io/travis/conjuring/conjuring?label=Conjuring)](https://travis-ci.org/conjuring/conjuring)
 [![dvc](https://img.shields.io/travis/com/iterative/dvc?label=dvc)](https://travis-ci.com/iterative/dvc)
 [![dvc.org](https://img.shields.io/circleci/build/gh/iterative/dvc.org?label=dvc.org)](https://circleci.com/gh/iterative/dvc.org)
