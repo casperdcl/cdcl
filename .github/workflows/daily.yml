@@ -27,7 +27,9 @@ jobs:
           git rebase upstream/trunk && git push -f
           if [ -z "$(git log --since=1.day)" ]; then
             echo "no change so skipping"
-            echo "::set-env name=skip::true"
+            echo "skip=true" >> $GITHUB_ENV
+          else
+            echo "skip=false" >> $GITHUB_ENV
           fi
           popd
         env:
@@ -35,23 +37,23 @@ jobs:
       - uses: casperdcl/action-snapcraft@master
         with:
           use_lxd: true
-        if: env.skip != true
+        if: '!env.skip'
       - name: build snap
         shell: bash
         run: |
           pushd cli
           sg lxd -c 'snapcraft --use-lxd'
           popd
-        if: env.skip != true
+        if: '!env.skip'
       - uses: casperdcl/action-snapcraft@master
         with:
           snapcraft_token: ${{ secrets.SNAP_TOKEN_GH }}
           skip_install: true
-        if: env.skip != true
+        if: '!env.skip'
       - name: deploy snap
         shell: bash
         run: |
           if [ -n "$(ls cli/gh_*.snap 2>/dev/null)" ]; then
             sudo snapcraft push cli/gh_*.snap --release edge
           fi
-        if: env.skip != true
+        if: '!env.skip'
