@@ -26,7 +26,6 @@ permalink: /
 
 ----
 
-[![AMYPAD-core](https://img.shields.io/github/workflow/status/AMYPAD/amypad-core/Test?label=AMYPAD-core)](https://github.com/AMYPAD/amypad-core/actions)
 [![Conjuring](https://img.shields.io/travis/conjuring/conjuring?label=Conjuring)](https://travis-ci.org/conjuring/conjuring)
 [![dvc](https://img.shields.io/travis/com/iterative/dvc?label=dvc)](https://travis-ci.com/iterative/dvc)
 [![dvc.org](https://img.shields.io/circleci/build/gh/iterative/dvc.org?label=dvc.org)](https://circleci.com/gh/iterative/dvc.org)
@@ -35,10 +34,12 @@ permalink: /
 [![gist:Music](https://img.shields.io/github/workflow/status/casperdcl/music-box/music-box?label=gist:Music)](https://github.com/casperdcl/music-box/actions)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
 [![gist:Weather](https://img.shields.io/github/workflow/status/casperdcl/hl-weather-box/hl-weather-box?label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions)
+[![miutil](https://img.shields.io/github/workflow/status/AMYPAD/miutil/Test?label=miutil)](https://github.com/AMYPAD/miutil/actions)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
 [![SIRF](https://img.shields.io/travis/SynerBI/SIRF?label=SIRF)](https://travis-ci.org/SynerBI/SIRF)
 [![SIRF-SuperBuild](https://img.shields.io/travis/SynerBI/SIRF-SuperBuild?label=SIRF-SuperBuild)](https://travis-ci.org/SynerBI/SIRF-SuperBuild)
+[![SPM12](https://img.shields.io/github/workflow/status/AMYPAD/SPM12/Test?label=SPM12)](https://github.com/AMYPAD/SPM12/actions)
 
 ## Cron
 
