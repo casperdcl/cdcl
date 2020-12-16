@@ -4,6 +4,19 @@ on:
   schedule:
     - cron: '6 0 * * *'  # M H d m w (daily at 00:06)
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+    - name: set PYSHA
+      run: echo "PYSHA=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
+    - uses: actions/cache@v1
+      with:
+        path: ~/.cache/pre-commit
+        key: pre-commit|${{ env.PYSHA }}|${{ hashFiles('.pre-commit-config.yaml') }}
+    - run: pip install -U pre-commit
+    - run: pre-commit run -a --show-diff-on-failure
   shfmt:
     runs-on: ubuntu-latest
     steps:
