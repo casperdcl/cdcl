@@ -34,10 +34,10 @@ jobs:
         git clone https://${GITHUB_TOKEN}@github.com/casperdcl/cli --branch snap
         pushd cli
         git remote add upstream https://github.com/cli/cli
-        git fetch upstream trunk
+        git fetch upstream trunk && git fetch upstream --tags
         git config user.name "Casper da Costa-Luis"
         git config user.email casper.dcl@physics.org
-        git rebase upstream/trunk && git push -f
+        git rebase upstream/trunk && git push -f && git push --tags -f
         if [ -z "$(git log --since=1.day)" ]; then
           echo "no change so skipping"
           echo "skip=true" >> $GITHUB_ENV
