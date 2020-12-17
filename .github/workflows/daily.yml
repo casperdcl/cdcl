@@ -42,7 +42,7 @@ jobs:
           echo "no change so skipping"
           echo "skip=true" >> $GITHUB_ENV
         else
-          echo "skip=false" >> $GITHUB_ENV
+          echo "skip=" >> $GITHUB_ENV
         fi
         popd
       env:
