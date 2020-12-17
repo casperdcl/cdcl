@@ -48,24 +48,14 @@ jobs:
         popd
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN_GH }}
-    - uses: samuelmeuli/action-snapcraft@v1
+    - if: '!env.skip'
+      id: snap_build
+      uses: snapcore/action-build@v1
       with:
-        use_lxd: true
-      if: '!env.skip'
-    - name: build snap
-      run: |
-        pushd cli
-        sg lxd -c 'snapcraft --use-lxd'
-        popd
-      if: '!env.skip'
-    - uses: samuelmeuli/action-snapcraft@v1
+        path: cli
+    - if: '!env.skip'
+      uses: snapcore/action-publish@v1
       with:
-        snapcraft_token: ${{ secrets.SNAP_TOKEN_GH }}
-        skip_install: true
-      if: '!env.skip'
-    - name: deploy snap
-      run: |
-        if [ -n "$(ls cli/gh_*.snap 2>/dev/null)" ]; then
-          sudo snapcraft push cli/gh_*.snap --release edge
-        fi
-      if: '!env.skip'
+        store_login: ${{ secrets.SNAP_TOKEN_GH }}
+        snap: ${{ steps.snap_build.outputs.snap }}
+        release: edge
