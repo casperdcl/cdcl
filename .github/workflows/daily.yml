@@ -42,6 +42,7 @@ jobs:
           echo "no change so skipping"
           echo "skip=true" >> $GITHUB_ENV
         else
+          echo "change detected so building"
           echo "skip=" >> $GITHUB_ENV
         fi
         popd
