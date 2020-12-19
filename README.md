@@ -16,7 +16,7 @@ permalink: /
 1. any issues may affect lots of people
 2. nobody else is likely to fix issues in a timely manner
 -->
-[![argopt](https://img.shields.io/travis/casperdcl/argopt?label=argopt)](https://travis-ci.org/casperdcl/argopt)
+[![argopt](https://img.shields.io/github/workflow/status/casperdcl/argopt/Test?label=argopt)](https://github.com/casperdcl/argopt/actions?query=workflow%3ATest)
 [![BrainWeb](https://img.shields.io/travis/casperdcl/brainweb?label=BrainWeb)](https://travis-ci.org/casperdcl/brainweb)
 [![git-fame](https://img.shields.io/github/workflow/status/casperdcl/git-fame/Test?label=git-fame)](https://github.com/casperdcl/git-fame/actions?query=workflow%3ATest)
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
