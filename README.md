@@ -31,6 +31,7 @@ permalink: /
 [![dvc.org](https://img.shields.io/circleci/build/gh/iterative/dvc.org?label=dvc.org)](https://circleci.com/gh/iterative/dvc.org)
 [![dvc-test](https://img.shields.io/travis/com/iterative/dvc-test?label=dvc-test)](https://travis-ci.com/iterative/dvc-test)
 [![gist:COVID-19](https://img.shields.io/github/workflow/status/casperdcl/covid-19-box/covid-19-box?label=gist:COVID-19)](https://github.com/casperdcl/covid-19-box/actions)
+[![gist:ghstat](https://img.shields.io/github/workflow/status/casperdcl/ghstat/daily?label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions)
 [![gist:Music](https://img.shields.io/github/workflow/status/casperdcl/music-box/music-box?label=gist:Music)](https://github.com/casperdcl/music-box/actions)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
 [![gist:Weather](https://img.shields.io/github/workflow/status/casperdcl/hl-weather-box/hl-weather-box?label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions)
