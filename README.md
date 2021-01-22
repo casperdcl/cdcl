@@ -42,9 +42,9 @@ permalink: /
 [![SIRF-SuperBuild](https://img.shields.io/travis/SynerBI/SIRF-SuperBuild?label=SIRF-SuperBuild)](https://travis-ci.org/SynerBI/SIRF-SuperBuild)
 [![SPM12](https://img.shields.io/github/workflow/status/AMYPAD/SPM12/Test?label=SPM12)](https://github.com/AMYPAD/SPM12/actions?query=workflow%3ATest)
 
-![](https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-a.png)
+![](https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-5.svg)
 
-<details><summary>Full breakdown</summary><img src="https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-b-full.png"/></details>
+<details><summary>Full breakdown</summary><img src="https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-a.png"/><br/><img src="https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-b-full.png"/></details>
 
 ----
 
