@@ -17,14 +17,6 @@ jobs:
         key: pre-commit|${{ env.PYSHA }}|${{ hashFiles('.pre-commit-config.yaml') }}
     - run: pip install -U pre-commit
     - run: pre-commit run -a --show-diff-on-failure
-  shfmt:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/setup-go@v1
-      with:
-        go-version: 1.13.x
-    - uses: actions/checkout@v2
-    - uses: casperdcl/sh@action
   snap-gh:
     runs-on: ubuntu-latest
     steps:
