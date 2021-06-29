@@ -38,7 +38,7 @@ permalink: /
 [![miutil](https://img.shields.io/github/workflow/status/AMYPAD/miutil/Test?label=miutil)](https://github.com/AMYPAD/miutil/actions/workflows/test.yml)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
-[![SIRF](https://img.shields.io/travis/SynerBI/SIRF?label=SIRF)](https://travis-ci.org/SynerBI/SIRF)
+[![SIRF](https://img.shields.io/github/workflow/status/SynerBI/SIRF/Build-test%20CI?label=SIRF)](https://github.com/SyneRBI/SIRF/actions/workflows/build-test.yml)
 [![SIRF-SuperBuild](https://img.shields.io/travis/SynerBI/SIRF-SuperBuild?label=SIRF-SuperBuild)](https://travis-ci.org/SynerBI/SIRF-SuperBuild)
 [![SPM12](https://img.shields.io/github/workflow/status/AMYPAD/SPM12/Test?label=SPM12)](https://github.com/AMYPAD/SPM12/actions/workflows/test.yml)
 
