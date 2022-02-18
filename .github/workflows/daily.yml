@@ -27,6 +27,7 @@ jobs:
         pushd cli
         git remote add upstream https://github.com/cli/cli
         git fetch upstream trunk && git fetch upstream --tags
+        git tag -d v9.9.9-test || :
         git config user.name "Casper da Costa-Luis"
         git config user.email casper.dcl@physics.org
         git rebase upstream/trunk && git push -f && git push --tags -f
