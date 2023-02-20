@@ -9,7 +9,6 @@ permalink: /
 ## Dashboard
 
 <!-- pinned-gists -->
-<div class="gist">37496a4e4c84aed9711fbe3ec560888a</div>
 <div class="gist">060c106a2b42d68d20b2e832971e5e04</div>
 
 <!-- Priority
