@@ -16,16 +16,16 @@ permalink: /
 2. nobody else is likely to fix issues in a timely manner
 -->
 [![argopt](https://img.shields.io/github/actions/workflow/status/casperdcl/argopt/test.yml?branch=master&label=argopt)](https://github.com/casperdcl/argopt/actions/workflows/test.yml)
+[![gha:deploy-pypi](https://img.shields.io/github/actions/workflow/status/casperdcl/deploy-pypi/test.yml?branch=v2&label=gha:deploy-pypi)](https://github.com/casperdcl/deploy-pypi/actions/workflows/test.yml)
+[![gha:push-dir](https://img.shields.io/github/actions/workflow/status/casperdcl/push-dir/test.yml?branch=v1&label=gha:push-dir)](https://github.com/casperdcl/push-dir/actions/workflows/test.yml)
 [![git-fame](https://img.shields.io/github/actions/workflow/status/casperdcl/git-fame/test.yml?branch=master&label=git-fame)](https://github.com/casperdcl/git-fame/actions/workflows/test.yml)
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
 [![shtab](https://img.shields.io/github/actions/workflow/status/iterative/shtab/test.yml?branch=main&label=shtab)](https://github.com/iterative/shtab/actions/workflows/test.yml)
-[![tqdm.cpp](https://img.shields.io/travis/tqdm/tqdm.cpp?label=tqdm.cpp)](https://travis-ci.org/tqdm/tqdm.cpp)
 [![tqdm](https://img.shields.io/github/actions/workflow/status/tqdm/tqdm/test.yml?branch=master&label=tqdm)](https://github.com/tqdm/tqdm/actions/workflows/test.yml)
+[![tqdm.cpp](https://img.shields.io/travis/tqdm/tqdm.cpp?label=tqdm.cpp)](https://travis-ci.org/tqdm/tqdm.cpp)
 
 ----
 
-[![cml](https://img.shields.io/github/actions/workflow/status/iterative/cml/test-deploy.yml?branch=master&label=cml)](https://github.com/iterative/cml/actions/workflows/test-deploy.yml)
-[![cml.dev](https://img.shields.io/circleci/build/gh/iterative/cml.dev?label=cml.dev)](https://circleci.com/gh/iterative/cml.dev)
 [![gist:COVID-19](https://img.shields.io/github/actions/workflow/status/casperdcl/covid-19-box/covid-19.yml?branch=master&label=gist:COVID-19)](https://github.com/casperdcl/covid-19-box/actions/workflows/covid-19.yml)
 [![gist:ghstat](https://img.shields.io/github/actions/workflow/status/casperdcl/ghstat/daily.yml?branch=master&label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions/workflows/daily.yml)
 [![gist:Music](https://img.shields.io/github/actions/workflow/status/casperdcl/music-box/music-box.yml?branch=master&label=gist:Music)](https://github.com/casperdcl/music-box/actions/workflows/music-box.yml)
@@ -34,11 +34,12 @@ permalink: /
 [![miutil](https://img.shields.io/github/actions/workflow/status/AMYPAD/miutil/test.yml?branch=master&label=miutil)](https://github.com/AMYPAD/miutil/actions/workflows/test.yml)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
 [![SPM12](https://img.shields.io/github/actions/workflow/status/AMYPAD/SPM12/test.yml?branch=master&label=SPM12)](https://github.com/AMYPAD/SPM12/actions/workflows/test.yml)
-[![TPI](https://img.shields.io/github/actions/workflow/status/iterative/terraform-provider-iterative/test.yml?branch=master&label=TPI)](https://github.com/iterative/terraform-provider-iterative/actions/workflows/test.yml)
 
 ----
 
 [![BrainWeb](https://img.shields.io/travis/casperdcl/brainweb?label=BrainWeb)](https://travis-ci.org/casperdcl/brainweb)
+[![cml](https://img.shields.io/github/actions/workflow/status/iterative/cml/test-deploy.yml?branch=master&label=cml)](https://github.com/iterative/cml/actions/workflows/test-deploy.yml)
+[![cml.dev](https://img.shields.io/circleci/build/gh/iterative/cml.dev?label=cml.dev)](https://circleci.com/gh/iterative/cml.dev)
 [![Conjuring](https://img.shields.io/github/actions/workflow/status/conjuring/conjuring/test.yml?branch=master&label=Conjuring)](https://github.com/conjuring/conjuring/actions/workflows/test.yml)
 [![dvc](https://img.shields.io/github/actions/workflow/status/iterative/dvc/tests.yaml?branch=master&label=dvc)](https://github.com/iterative/dvc/actions/workflows/tests.yaml)
 [![dvc.org](https://img.shields.io/circleci/build/gh/iterative/dvc.org?label=dvc.org)](https://circleci.com/gh/iterative/dvc.org)
@@ -46,6 +47,7 @@ permalink: /
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
 [![SIRF](https://img.shields.io/github/actions/workflow/status/SyneRBI/SIRF/build-test.yml?branch=master&label=SIRF)](https://github.com/SyneRBI/SIRF/actions/workflows/build-test.yml)
 [![SIRF-SuperBuild](https://img.shields.io/github/actions/workflow/status/SyneRBI/SIRF-SuperBuild/c-cpp.yml?branch=master&label=SIRF-SuperBuild)](https://github.com/SyneRBI/SIRF-SuperBuild/actions/workflows/c-cpp.yml)
+[![TPI](https://img.shields.io/github/actions/workflow/status/iterative/terraform-provider-iterative/test.yml?branch=master&label=TPI)](https://github.com/iterative/terraform-provider-iterative/actions/workflows/test.yml)
 
 ![](https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-5.svg)
 
