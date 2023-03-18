@@ -33,6 +33,7 @@ permalink: /
 [![gist:Weather](https://img.shields.io/github/actions/workflow/status/casperdcl/hl-weather-box/hl-weather.yml?branch=master&label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions/workflows/hl-weather.yml)
 [![miutil](https://img.shields.io/github/actions/workflow/status/AMYPAD/miutil/test.yml?branch=master&label=miutil)](https://github.com/AMYPAD/miutil/actions/workflows/test.yml)
 [![NiftyPET-rtd](https://img.shields.io/readthedocs/niftypet?label=NiftyPET-rtd)](https://readthedocs.org/projects/niftypet/builds)
+[![pages:tldr.cdcl.ml](https://img.shields.io/github/actions/workflow/status/casperdcl/tldr.cdcl.ml/pages.yml?branch=main&label=pages:tldr.cdcl.ml)](https://github.com/casperdcl/tldr.cdcl.ml/actions)
 [![SPM12](https://img.shields.io/github/actions/workflow/status/AMYPAD/SPM12/test.yml?branch=master&label=SPM12)](https://github.com/AMYPAD/SPM12/actions/workflows/test.yml)
 
 ----
