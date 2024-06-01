@@ -18,7 +18,7 @@ permalink: /
 [![argopt](https://img.shields.io/github/actions/workflow/status/casperdcl/argopt/test.yml?branch=master&label=argopt)](https://github.com/casperdcl/argopt/actions/workflows/test.yml)
 [![gha:deploy-pypi](https://img.shields.io/github/actions/workflow/status/casperdcl/deploy-pypi/test.yml?branch=v2&label=gha:deploy-pypi)](https://github.com/casperdcl/deploy-pypi/actions/workflows/test.yml)
 [![gha:push-dir](https://img.shields.io/github/actions/workflow/status/casperdcl/push-dir/test.yml?branch=v1&label=gha:push-dir)](https://github.com/casperdcl/push-dir/actions/workflows/test.yml)
-[![git-fame](https://img.shields.io/github/actions/workflow/status/casperdcl/git-fame/test.yml?branch=master&label=git-fame)](https://github.com/casperdcl/git-fame/actions/workflows/test.yml)
+[![git-fame](https://img.shields.io/github/actions/workflow/status/casperdcl/git-fame/test.yml?branch=main&label=git-fame)](https://github.com/casperdcl/git-fame/actions/workflows/test.yml)
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
 [![shtab](https://img.shields.io/github/actions/workflow/status/iterative/shtab/test.yml?branch=main&label=shtab)](https://github.com/iterative/shtab/actions/workflows/test.yml)
 [![tqdm](https://img.shields.io/github/actions/workflow/status/tqdm/tqdm/test.yml?branch=master&label=tqdm)](https://github.com/tqdm/tqdm/actions/workflows/test.yml)
@@ -28,7 +28,7 @@ permalink: /
 
 [![CuVec](https://img.shields.io/github/actions/workflow/status/AMYPAD/CuVec/test.yml?branch=main&label=CuVec)](https://github.com/AMYPAD/CuVec/actions/workflows/test.yml)
 [![gist:COVID-19](https://img.shields.io/github/actions/workflow/status/casperdcl/covid-19-box/covid-19.yml?branch=master&label=gist:COVID-19)](https://github.com/casperdcl/covid-19-box/actions/workflows/covid-19.yml)
-[![gist:ghstat](https://img.shields.io/github/actions/workflow/status/casperdcl/ghstat/daily.yml?branch=master&label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions/workflows/daily.yml)
+[![gist:ghstat](https://img.shields.io/github/actions/workflow/status/casperdcl/ghstat/daily.yml?branch=v2&label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions/workflows/daily.yml)
 [![gist:Music](https://img.shields.io/github/actions/workflow/status/casperdcl/music-box/music-box.yml?branch=master&label=gist:Music)](https://github.com/casperdcl/music-box/actions/workflows/music-box.yml)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
 [![gist:Weather](https://img.shields.io/github/actions/workflow/status/casperdcl/hl-weather-box/hl-weather.yml?branch=master&label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions/workflows/hl-weather.yml)
