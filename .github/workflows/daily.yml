@@ -1,8 +1,7 @@
 name: daily
 on:
   push:
-  schedule:
-    - cron: '6 0 * * *'  # M H d m w (daily at 00:06)
+  schedule: [{cron: '6 0 * * *'}]  # M H d m w (daily at 00:06)
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -45,11 +44,11 @@ jobs:
     - if: '!env.skip'
       id: snap_build
       uses: snapcore/action-build@v1
-      with:
-        path: cli
+      with: {path: cli}
     - if: '!env.skip'
       uses: snapcore/action-publish@v1
       with:
-        store_login: ${{ secrets.SNAP_TOKEN_GH }}
         snap: ${{ steps.snap_build.outputs.snap }}
         release: edge
+      env:
+        SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAP_TOKEN_GH }}
