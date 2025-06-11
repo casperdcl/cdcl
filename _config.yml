@@ -1,7 +1,5 @@
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker
+plugins: [jekyll-remote-theme]
 lang: en-GB
 title: cdcl
-header_extra: |
- <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
- <script type="text/javascript" src="main.js"></script>
-  <script defer data-domain="cdcl.ml" src="https://plausible.cdcl.ml/js/script.js"></script>
+favicon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚥</text></svg>'
