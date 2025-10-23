@@ -5,6 +5,8 @@ permalink: /
 
 <!-- cron status -->
 [![daily-gh](https://img.shields.io/github/actions/workflow/status/casperdcl/cdcl/daily.yml?branch=master&label=daily&logo=GitHub)](https://github.com/casperdcl/cdcl/actions)
+[![site:uptime.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fuptime.cdcl.ml&label=site:uptime.cdcl.ml)](https://uptime.cdcl.ml)
+![LLM-rate](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgpu.cdcl.ml%2Fperf&query=rate&suffix=%20tok%2Fs&logo=speedtest&label=LLM)
 
 ## Dashboard
 
@@ -22,10 +24,13 @@ permalink: /
 [![py-make](https://img.shields.io/travis/tqdm/py-make?label=py-make)](https://travis-ci.org/tqdm/py-make)
 [![site:cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fcdcl.ml&label=site:cdcl.ml)](https://cdcl.ml)
 [![site:costaluis.co](https://img.shields.io/website?url=https%3A%2F%2Fcostaluis.co&label=site:costaluis.co)](https://costaluis.co)
+[![site:crossed-keys.org](https://img.shields.io/website?url=https%3A%2F%2Fcrossed-keys.org&label=site:crossed-keys.org)](https://crossed-keys.org)
 [![site:brace.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fbrace.cdcl.ml&label=site:brace.cdcl.ml)](https://brace.cdcl.ml)
 [![site:gist.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fgist.cdcl.ml&label=site:gist.cdcl.ml)](https://gist.cdcl.ml)
+[![site:git-fame.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fgit-fame.cdcl.ml%2Fdocs&label=site:git-fame.cdcl.ml)](https://git-fame.cdcl.ml)
 [![site:img.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fimg.cdcl.ml%2Ftqdm.png&label=site:img.cdcl.ml)](https://img.cdcl.ml)
 [![site:lexrocha.com](https://img.shields.io/website?url=https%3A%2F%2Flexrocha.com&label=site:lexrocha.com)](https://lexrocha.com)
+[![site:meet.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fmeet.cdcl.ml&label=site:meet.cdcl.ml)](https://meet.cdcl.ml)
 [![site:talks.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Ftalks.cdcl.ml&label=site:talks.cdcl.ml)](https://talks.cdcl.ml)
 [![site:tldr.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Ftldr.cdcl.ml&label=site:tldr.cdcl.ml)](https://tldr.cdcl.ml)
 [![shtab](https://img.shields.io/github/actions/workflow/status/iterative/shtab/test.yml?branch=main&label=shtab)](https://github.com/iterative/shtab/actions/workflows/test.yml)
