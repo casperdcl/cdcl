@@ -34,10 +34,10 @@ permalink: /
 
 ----
 
-[![BrainWeb](https://img.shields.io/travis/casperdcl/brainweb?label=BrainWeb)](https://travis-ci.org/casperdcl/brainweb)
+[![BrainWeb](https://img.shields.io/github/actions/workflow/status/casperdcl/brainweb/test.yml?branch=master&label=BrainWeb)](https://github.com/casperdcl/brainweb/actions/workflows/test.yml)
 [![CuVec](https://img.shields.io/github/actions/workflow/status/AMYPAD/CuVec/test.yml?branch=main&label=CuVec)](https://github.com/AMYPAD/CuVec/actions/workflows/test.yml)
-[![gist:COVID-19](https://img.shields.io/github/actions/workflow/status/casperdcl/covid-19-box/covid-19.yml?branch=master&label=gist:COVID-19)](https://github.com/casperdcl/covid-19-box/actions/workflows/covid-19.yml)
-[![gist:ghstat](https://img.shields.io/github/actions/workflow/status/casperdcl/ghstat/daily.yml?branch=v2&label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions/workflows/daily.yml)
+<!--[![gist:COVID-19](https://img.shields.io/github/actions/workflow/status/casperdcl/covid-19-box/covid-19.yml?branch=master&label=gist:COVID-19)](https://github.com/casperdcl/covid-19-box/actions/workflows/covid-19.yml)-->
+[![gist:ghstat](https://img.shields.io/github/actions/workflow/status/casperdcl/ghstat/cron.yml?branch=v2&label=gist:ghstat)](https://github.com/casperdcl/ghstat/actions/workflows/cron.yml)
 [![gist:Music](https://img.shields.io/github/actions/workflow/status/casperdcl/music-box/music-box.yml?branch=master&label=gist:Music)](https://github.com/casperdcl/music-box/actions/workflows/music-box.yml)
 [![gist:Strava](https://img.shields.io/circleci/build/gh/casperdcl/strava-box?label=gist:Strava)](https://circleci.com/gh/casperdcl/strava-box)
 [![gist:Weather](https://img.shields.io/github/actions/workflow/status/casperdcl/hl-weather-box/hl-weather.yml?branch=master&label=gist:Weather)](https://github.com/casperdcl/hl-weather-box/actions/workflows/hl-weather.yml)
