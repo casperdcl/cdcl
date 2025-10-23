@@ -52,9 +52,9 @@ permalink: /
 [![OpenWorm-docs](https://img.shields.io/circleci/build/gh/openworm/openworm_docs?label=OpenWorm-docs)](https://circleci.com/gh/openworm/openworm_docs)
 [![SPM12](https://img.shields.io/github/actions/workflow/status/AMYPAD/SPM12/test.yml?branch=master&label=SPM12)](https://github.com/AMYPAD/SPM12/actions/workflows/test.yml)
 
-![](https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-5.svg)
+![](https://gist.githubusercontent.com/casperdcl/aac90b8313a905e146459c81cabade7d/raw/ghstats-5.svg)
 
-<details><summary>Full breakdown</summary><img src="https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-a.png"/><br/><img src="https://gist.githubusercontent.com/casperdcl/7f351ce61f01cfcfb5cfa53097954435/raw/ghstats-b-full.png"/></details>
+<details><summary>Full breakdown</summary><img src="https://gist.githubusercontent.com/casperdcl/aac90b8313a905e146459c81cabade7d/raw/ghstats-a.png"/><br/><img src="https://gist.githubusercontent.com/casperdcl/aac90b8313a905e146459c81cabade7d/raw/ghstats-b-full.png"/></details>
 
 ----
 
