@@ -18,6 +18,7 @@ permalink: /
 2. nobody else is likely to fix issues in a timely manner
 -->
 [![argopt](https://img.shields.io/github/actions/workflow/status/casperdcl/argopt/test.yml?branch=master&label=argopt)](https://github.com/casperdcl/argopt/actions/workflows/test.yml)
+[![envwrap](https://img.shields.io/github/actions/workflow/status/tqdm/envwrap/test.yml?branch=main&label=envwrap)](https://github.com/tqdm/envwrap/actions/workflows/test.yml)
 [![gha:deploy-pypi](https://img.shields.io/github/actions/workflow/status/casperdcl/deploy-pypi/test.yml?branch=v2&label=gha:deploy-pypi)](https://github.com/casperdcl/deploy-pypi/actions/workflows/test.yml)
 [![gha:push-dir](https://img.shields.io/github/actions/workflow/status/casperdcl/push-dir/test.yml?branch=v1&label=gha:push-dir)](https://github.com/casperdcl/push-dir/actions/workflows/test.yml)
 [![git-fame](https://img.shields.io/github/actions/workflow/status/casperdcl/git-fame/test.yml?branch=main&label=git-fame)](https://github.com/casperdcl/git-fame/actions/workflows/test.yml)
@@ -33,7 +34,7 @@ permalink: /
 [![site:meet.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Fmeet.cdcl.ml&label=site:meet.cdcl.ml)](https://meet.cdcl.ml)
 [![site:talks.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Ftalks.cdcl.ml&label=site:talks.cdcl.ml)](https://talks.cdcl.ml)
 [![site:tldr.cdcl.ml](https://img.shields.io/website?url=https%3A%2F%2Ftldr.cdcl.ml&label=site:tldr.cdcl.ml)](https://tldr.cdcl.ml)
-[![shtab](https://img.shields.io/github/actions/workflow/status/iterative/shtab/test.yml?branch=main&label=shtab)](https://github.com/iterative/shtab/actions/workflows/test.yml)
+[![shtab](https://img.shields.io/github/actions/workflow/status/tqdm/shtab/test.yml?branch=main&label=shtab)](https://github.com/tqdm/shtab/actions/workflows/test.yml)
 [![tqdm](https://img.shields.io/github/actions/workflow/status/tqdm/tqdm/test.yml?branch=master&label=tqdm)](https://github.com/tqdm/tqdm/actions/workflows/test.yml)
 [![tqdm.cpp](https://img.shields.io/travis/tqdm/tqdm.cpp?label=tqdm.cpp)](https://travis-ci.org/tqdm/tqdm.cpp)
 
