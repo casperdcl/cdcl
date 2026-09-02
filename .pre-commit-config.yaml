@@ -12,3 +12,16 @@ repos:
   - id: mixed-line-ending
   - id: sort-simple-yaml
   - id: trailing-whitespace
+- repo: local
+  hooks:
+  - id: pytest
+    name: pytest
+    language: python
+    entry: pytest
+    args: [.github/workflows/daily.py, -v, --tb=short, -rxs, -W=error, --durations=0]
+    types: [python]
+    pass_filenames: false
+    additional_dependencies:
+    - pytest
+    - bs4
+    - requests

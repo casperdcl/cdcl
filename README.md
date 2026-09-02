@@ -78,8 +78,3 @@ Run tasks at scheduled times in the cloud.
 - GitHub Actions
   + pro: everything in one place (no reliance on third-party providers)
   + con: [can only cache on push and PR](https://help.github.com/en/actions/configuring-and-managing-workflows/caching-dependencies-to-speed-up-workflows#restrictions-for-accessing-a-cache)
-
-### User Configuration
-
-- In-place: the root config files (`.travis.yml`/`.circleci`/`.github/workflows/` etc.)
-- TODO: or file layout: `(travis|circle|gh)_(day|week|month)_*.y(a)ml`?

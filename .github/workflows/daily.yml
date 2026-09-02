@@ -15,7 +15,7 @@ jobs:
       with:
         path: ~/.cache/pre-commit
         key: pre-commit|${{ env.PYSHA }}|${{ hashFiles('.pre-commit-config.yaml') }}
-    - run: pip install -U pre-commit
+    - run: pip install pre-commit
     - run: pre-commit run -a --show-diff-on-failure
   snap-gh:
     runs-on: ubuntu-latest
