@@ -21,3 +21,15 @@ def test_kingkiller_chronicle():
     years = sorted(set(re.findall(r"The Doors of Stone\s+\(([TBA0-9]+)\)", soup.text)))
     if any(year != "TBA" for year in years):
         raise ValueError(f"The Doors of Stone ({', '.join(years)})")
+
+
+def test_dark_profit_saga():
+    soup = get_soup('https://jzacharypike.com/pages/shop')
+    if re.findall('Crypt Currency', soup.text, flags=re.I):
+        raise ValueError("Crypt Currency is available.")
+
+
+def test_dungeon_crawler_carl():
+    soup = get_soup('https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl')
+    if cell := soup.find(['th', 'tr'], string=re.compile(r"^9$")):
+        raise ValueError(" ".join(i.text for i in cell.next_siblings).replace("\xa0", " "))
